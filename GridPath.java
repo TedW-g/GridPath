@@ -21,7 +21,7 @@ public class GridPath
 
     public Location getNextLoc(int row, int col) 
     {
-        /* to be implemented in part (a) */ 
+        return null;
     }
 
     /**
@@ -36,6 +36,6 @@ public class GridPath
 
     public int sumPath(int row, int col) 
     {
-        /* to be implemented in part (b) */ 
+        return 0;
     }
 }
