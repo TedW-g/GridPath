@@ -12,6 +12,17 @@ public class Main
         };
         GridPath one = new GridPath(nums);
         System.out.println(one);
-        System.out.println(one.getNextLoc(0,0));
+        System.out.println(one.getNextLoc(2,4));
+
+        int[][] gridTwo = 
+        {
+            {12,30,40,25,5},
+            {11,3,22,15,43},
+            {7,2,9,4,0},
+            {8,33,18,6,1},
+        };
+        GridPath two = new GridPath(gridTwo);
+        System.out.println(two);
+        System.out.println(two.sumPath(2,4));
     }
 }
