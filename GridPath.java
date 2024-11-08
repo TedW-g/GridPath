@@ -26,7 +26,7 @@ public class GridPath
         int right = Integer.MAX_VALUE;
         if (col < grid[0].length - 1) right = grid[row][col + 1];
         if (below < right) return new Location(row + 1, col);
-        else return new Location(right, col + 1);
+        else return new Location(row, col + 1);
     }
 
     /**
