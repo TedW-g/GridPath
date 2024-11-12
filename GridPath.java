@@ -47,8 +47,9 @@ public class GridPath
             Location loc = getNextLoc(row, col);
             row = loc.getRow();
             col = loc.getCol();
+            sum += grid[row][col];
         }
-        return sum += grid[row][col];
+        return sum;
     }
 
     public String toString()
