@@ -19,7 +19,7 @@ public class Main
 
         System.out.println(one.getNextLoc(2,4));
 
-        System.out.println(one.getNextLoc(3,4));
+        System.out.println(one.getNextLoc(4,3));
 
         int[][] gridTwo = 
         {
@@ -30,6 +30,7 @@ public class Main
         };
         GridPath two = new GridPath(gridTwo);
         System.out.println("\n" + two);
+        
         System.out.println(two.sumPath(1,1));
     }
 }
